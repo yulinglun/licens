@@ -8,7 +8,6 @@ void print_bits(int i);
 void btoa(char bits, char *output, int size);
 
 bool is_little_endian();
-
 int main(int argc, char *argv[]) {
   const int size = sizeof(unsigned int) * 8;
 
