@@ -4,7 +4,6 @@ UndirectedGraph* ugraph_create(const int v) {
   UndirectedGraph* g =
       malloc(sizeof(UndirectedGraph) + sizeof(struct neighbor*) * v);
   assert(g);
-
   g->v = v;
   g->e = 0;
 
