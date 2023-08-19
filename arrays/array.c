@@ -6,7 +6,7 @@ JArray *jarray_new(int capacity) {
 
   JArray *arr = malloc(sizeof(JArray));
   check_address(arr);
-
+#
   arr->size = 0;
   arr->capacity = true_capacity;
   arr->data = (int *)malloc(sizeof(int) * true_capacity);
