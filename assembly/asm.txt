@@ -1,7 +1,6 @@
 
 main.o:     file format mach-o-i386
 
-
 Disassembly of section .text:
 
 00000000 <_main>:
