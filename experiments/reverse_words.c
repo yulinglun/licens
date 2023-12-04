@@ -46,3 +46,7 @@ bool reverseWords(char str[]) {
   free(buffer);
   return true; /* ReverseWords successful */
 }
+int main(int argc, char **argv) {
+  char *s1 = "My kingdom for a horse.";
+  reverseWords(s1);
+  printf("%s\n", s1);
