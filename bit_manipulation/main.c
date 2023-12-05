@@ -4,7 +4,6 @@
 #include <stdlib.h>
 
 void print_bits(int i);
-
 void btoa(char bits, char *output, int size);
 
 bool is_little_endian();
