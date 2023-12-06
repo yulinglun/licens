@@ -1,6 +1,5 @@
 #ifndef PROJECT_ARRAY_H
 #define PROJECT_ARRAY_H
-
 #include <assert.h>
 #include <stdbool.h>
 
