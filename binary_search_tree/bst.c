@@ -187,3 +187,16 @@ int get_successor(bst_node* node, int value) {
     return successor->value;
   }
 }
+ // Decide which half to choose for seeking next: left or right one.
+    if (comparator.lessThan(sortedArray[middleIndex], seekElement)) {
+      // Go to the right half of the array.
+      startIndex = middleIndex + 1;
+    } else {
+      // Go to the left half of the array.
+      endIndex = middleIndex - 1;
+    }
+  }
+
+  // Return -1 if we have not found anything.
+  return -1;
+}
